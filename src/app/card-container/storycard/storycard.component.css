@@ -1,0 +1,52 @@
+.example-header-image {
+    /* background-image: url({{instructorPhotoUrl}}); */
+    background-size: cover;
+  }
+
+  mat-grid-tile {
+    background: lightblue;
+  }
+
+  .storyRow{
+    margin-top: 10px;
+  }
+ img{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  object-fit: cover;  
+  text-align: left;
+ }
+
+ .col-md-1{
+   flex: 0 0 4.333333%;
+   max-width: 4.333333%;
+   padding-left: 0px;
+   padding-right: 20px;
+   text-align: right;
+   
+ }
+ .storyCard{
+   height:150px;
+ }
+.instructorImage{
+  padding-left: 20px;
+}
+
+ .col-2,.col-3{
+  padding-left: 15px;
+  padding-right: 0px;
+  font-weight: 500;
+  font-size: 13px;
+}
+ .col-5{
+  padding-left: 0px;
+  padding-right: 0px;  
+}
+.title{
+  font-weight: 600;
+}
+.description{
+  font-size: 11px;
+}
